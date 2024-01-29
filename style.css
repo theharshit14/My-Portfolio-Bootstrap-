@@ -40,13 +40,13 @@ h3{
 
     }
 }
-@media (min-width:480px){
-    .contact-details{
-        text-align: center !important;
+@media (min-width:320px){
+    .home{
+        padding-top: 15px !important;
     }
 }
 @media (min-width:801px){
-    .contact-details{
-        text-align: start !important;
+    .home{
+        padding-top: 25px !important;
     }
 }
