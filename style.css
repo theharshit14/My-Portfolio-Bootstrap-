@@ -28,7 +28,7 @@ h3{
     justify-content: center;
     text-align: center;
 }
-@media (min-width:480px){
+@media (min-width:320px){
     .img-profile{
         text-align: center !important;
         margin: 0;
