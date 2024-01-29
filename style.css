@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body{
+    font-family: "PT Serif", serif;
+}
+.nav-item{
+    padding: 15px;
+}
+h4{
+    padding-top: 25%;
+}
+img{
+    padding-top: 15%;
+    width: 50%;
+    height: 25%;
+}
+.about{
+    padding-top: 30px;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    padding-top: 30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media (min-width:480px){
+    .img-profile{
+        text-align: center !important;
+        margin: 0;
+    }
+}
+@media (min-width:801px){
+    .img-profile{
+        text-align: end !important;
+
+    }
+}
+@media (min-width:480px){
+    .contact-details{
+        text-align: center !important;
+    }
+}
+@media (min-width:801px){
+    .contact-details{
+        text-align: start !important;
+    }
+}
