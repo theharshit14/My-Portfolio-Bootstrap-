@@ -42,11 +42,21 @@ h3{
 }
 @media (min-width:320px){
     .home{
-        padding-top: 15px !important;
+        padding-top: 10px !important;
     }
 }
 @media (min-width:801px){
     .home{
         padding-top: 25px !important;
+    }
+}
+@media (min-width:320px){
+    .intro-setion{
+        font-size: 15px !important;
+    }
+}
+@media (min-width:801px){
+    .intro-setion{
+        font-size: 30px !important;
     }
 }
