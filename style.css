@@ -3,7 +3,8 @@
 body{
     font-family: "PT Serif", serif;
     background-color: rgba(250, 235, 215, 0.902);
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
 }
 .nav-item{
     padding: 15px;
