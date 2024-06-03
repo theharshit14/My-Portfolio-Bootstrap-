@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "PT Serif", serif;
+    background-color: rgba(250, 235, 215, 0.902);
+    max-width: 100%;
+    overflow-x : hidden;
 }
 .nav-item{
     padding: 15px;
@@ -28,7 +34,24 @@ h3{
     justify-content: center;
     text-align: center;
 }
-@media (min-width:480px){
+.gototopbtn{
+    position: fixed;
+    width: 40px;
+    height: 17px;
+    background-color: rgb(245, 211, 161);
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    font-size: 20px;
+
+}
+@media (min-width:320px){
     .img-profile{
         text-align: center !important;
         margin: 0;
@@ -40,13 +63,26 @@ h3{
 
     }
 }
-@media (min-width:480px){
-    .contact-details{
-        text-align: center !important;
+
+@media (min-width:320px){
+    .home{
+        padding-top: 10px !important;
     }
 }
 @media (min-width:801px){
-    .contact-details{
-        text-align: start !important;
+    .home{
+        padding-top: 25px !important;
     }
 }
+@media (min-width:320px){
+    .intro-setion{
+        font-size: 15px !important;
+    }
+}
+@media (min-width:801px){
+    .intro-setion{
+        font-size: 30px !important;
+    }
+}
+
+
