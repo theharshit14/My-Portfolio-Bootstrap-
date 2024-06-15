@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-html{
+
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     font-family: "PT Serif", serif;
@@ -16,7 +18,7 @@ h4{
     padding-top: 25%;
 }
 img{
-    padding-top: 15%;
+    padding-top: 5%;
     width: 50%;
     height: 25%;
 }
@@ -49,7 +51,6 @@ h3{
     line-height: 50px;
     color: black;
     font-size: 20px;
-
 }
 @media (min-width:320px){
     .img-profile{
@@ -63,7 +64,6 @@ h3{
 
     }
 }
-
 @media (min-width:320px){
     .home{
         padding-top: 10px !important;
